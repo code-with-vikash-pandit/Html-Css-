@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectar</title>
+    <style>
+        div{
+            /* element selector */
+            color: beige;
+            background-color: black;
+        }
+
+         /* class salector */
+        .blue{
+            color: cadetblue;
+        }
+
+        /* id salector */
+
+        #green{
+            color: blueviolet;
+        }
+
+        /*child salector */
+
+        .div > p {
+            background-color: chartreuse;
+            color: gold;
+        }
+
+        /* descendent selector */
+
+        .div >p {
+            color: blue;
+            background-color: chocolate;
+        }
+
+        /* Univalsal Selecor */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* pseudo selector  */
+
+         a:visited {
+            color: chartreuse;
+        }
+
+        a:link{
+            color: gold;
+        }
+
+        a:active{
+            background-color: brown;
+        }
+
+        a:hover{
+            background-color: blue;
+        }
+
+        p::first-letter {
+            background-color: chartreuse;
+        }
+
+        p:first-child{
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+
+    <main class="one">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis corporis eaque adipisci dolor eum, vel culpa laudantium dolore expedita? Quaerat, explicabo assumenda. Obcaecati doloribus sapiente aliquid aspernatur cumque amet in.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eos deleniti aut amet quo itaque dignissimos, molestiae sequi asperiores minima nam voluptatum dolorum temporibus architecto ullam fugiat, beatae possimus quibusdam!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, culpa quasi, harum impedit aperiam doloribus esse pariatur dolore praesentium, ad corporis quo itaque quos distinctio? Quidem minima eveniet aspernatur rem?</p>
+    </main>
+
+    <div class="blue">
+        are you made
+        <article>
+            <p>i am chiled salector</p>
+        </article>
+        
+    </div>
+
+    <div id="green">
+        i am green
+    </div>
+
+    <div>
+        <a href="https://www.javatpoint.com/javascript-execution-context">GO to javatpoint</a>
+
+        <a href="https://www,google.com">Go to Google </a>
+    </div>
+</body>
+</html>
